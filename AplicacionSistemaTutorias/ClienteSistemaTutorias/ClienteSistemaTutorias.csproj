@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A2D4E82-7D36-4AD3-ADE6-2C103EBC6C9A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ClienteSistemaTutorias</RootNamespace>
+    <AssemblyName>ClienteSistemaTutorias</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ConsultarHorarioTutorias.xaml.cs">
+      <DependentUpon>ConsultarHorarioTutorias.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarReporteGeneral.xaml.cs">
+      <DependentUpon>ConsultarReporteGeneral.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InformacionUsuarios\PeriodoEscolarViewModel.cs" />
+    <Compile Include="Modelo\ConsultaReporteGeneralVM.cs" />
+    <Compile Include="Modelo\ConsultaUsuarioVM.cs" />
+    <Compile Include="Modelo\ReporteGeneral.cs" />
+    <Compile Include="PeriodoNuevo.xaml.cs">
+      <DependentUpon>PeriodoNuevo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarFechasCierreReporte.xaml.cs">
+      <DependentUpon>RegistrarFechasCierreReporte.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarFechasTutorias.xaml.cs">
+      <DependentUpon>RegistrarFechasTutorias.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteGeneralTutorias.xaml.cs">
+      <DependentUpon>ReporteGeneralTutorias.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Avisos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConsultarHorarioTutorias.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConsultarReporteGeneral.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Avisos.xaml.cs">
+      <DependentUpon>Avisos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ServiceReferenceTutorias\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="InformacionUsuarios\AcademicoRecibido.cs" />
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="MenuCoordinador.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MenuJefe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MenuTutor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PeriodoNuevo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistrarFechasCierreReporte.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistrarFechasTutorias.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReporteGeneralTutorias.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MenuCoordinador.xaml.cs">
+      <DependentUpon>MenuCoordinador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuJefe.xaml.cs">
+      <DependentUpon>MenuJefe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuTutor.xaml.cs">
+      <DependentUpon>MenuTutor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="bin\Debug\ClienteSistemaTutorias.exe.config" />
+    <None Include="Connected Services\ServiceReferenceTutorias\ClienteSistemaTutorias.ServiceReferenceTutorias.Academico.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\ClienteSistemaTutorias.ServiceReferenceTutorias.ComentarioGeneral.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\ClienteSistemaTutorias.ServiceReferenceTutorias.HoraTutoria.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\ClienteSistemaTutorias.ServiceReferenceTutorias.Materia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\ClienteSistemaTutorias.ServiceReferenceTutorias.Mensaje.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\ClienteSistemaTutorias.ServiceReferenceTutorias.MensajeGenerico.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\ClienteSistemaTutorias.ServiceReferenceTutorias.PeriodoEscolar.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\ClienteSistemaTutorias.ServiceReferenceTutorias.Problematica.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\ClienteSistemaTutorias.ServiceReferenceTutorias.Tutorado.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\ClienteSistemaTutorias.ServiceReferenceTutorias.TutoriaAcademica.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\Service1.wsdl" />
+    <None Include="Connected Services\ServiceReferenceTutorias\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceTutorias\Service12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ServiceReferenceTutorias\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceTutorias\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceTutorias\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceTutorias\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReferenceTutorias\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Iconos\cerrar-sesion.png" />
+    <Resource Include="Iconos\comentario.png" />
+    <Resource Include="Iconos\consulta.png" />
+    <Resource Include="Iconos\editar.png" />
+    <Resource Include="Iconos\horario.png" />
+    <Resource Include="Iconos\reporte.png" />
+    <Resource Include="Iconos\responder.png" />
+    <Resource Include="Iconos\salida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Iconos\calendario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Iconos\calendariocierre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Iconos\consultarreporte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Iconos\registro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Iconos\solucion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\ClienteSistemaTutorias.exe" />
+    <Content Include="bin\Debug\ClienteSistemaTutorias.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

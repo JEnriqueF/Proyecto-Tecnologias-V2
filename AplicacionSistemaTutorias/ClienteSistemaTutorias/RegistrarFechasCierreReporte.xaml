@@ -1,0 +1,29 @@
+﻿<Window x:Class="ClienteSistemaTutorias.RegistrarFechasCierreReporte"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClienteSistemaTutorias"
+        mc:Ignorable="d"
+        Title="RegistrarFechasCierreReporte" Height="450" Width="800">
+    <Grid>
+        <Label Content="Fecha de primera entrega:" HorizontalAlignment="Left" Margin="82,246,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha de tercera entrega:" HorizontalAlignment="Left" Margin="567,246,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha de segunda entrega:" HorizontalAlignment="Left" Margin="326,246,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dpPrimeraEntrega" HorizontalAlignment="Left" Margin="82,277,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dpSegundaEntrega" HorizontalAlignment="Left" Margin="330,272,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dpTerceraEntrega" HorizontalAlignment="Left" Margin="567,272,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fechas de cierre de entrega de reporte" HorizontalAlignment="Center" Margin="0,64,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="640,343,0,0" VerticalAlignment="Top" Width="72" Click="clicGuardar"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="542,343,0,0" VerticalAlignment="Top" Width="74" Click="clicCancelar"/>
+        <Label Content="Periodo escolar:" HorizontalAlignment="Left" Margin="306,140,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbPeriodoEscolar" Content="" HorizontalAlignment="Left" Margin="402,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="Primera tutoría:" HorizontalAlignment="Left" Margin="108,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Primera tutoría:" HorizontalAlignment="Left" Margin="356,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Primera tutoría:" HorizontalAlignment="Left" Margin="593,180,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbPrimeraTutoria" ContentStringFormat="dd/MM/yyyy" Content="" HorizontalAlignment="Left" Margin="125,211,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbSegundaTutoria" ContentStringFormat="dd/MM/yyyy" Content="" HorizontalAlignment="Left" Margin="374,211,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbTerceraTutoria" ContentStringFormat="dd/MM/yyyy" Content="" HorizontalAlignment="Left" Margin="606,211,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="ClienteSistemaTutorias.RegistrarFechasTutorias"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClienteSistemaTutorias"
+        mc:Ignorable="d"
+        Title="RegistrarFechasTutorias" Height="450" Width="800">
+    <Grid>
+        <Label Content="Fechas de sesión de tutorías" HorizontalAlignment="Center" Margin="0,64,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
+        <Label Content="Periodo escolar:" HorizontalAlignment="Left" Margin="251,152,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbPeriodos" DisplayMemberPath="titulo" SelectedValuePath="idPeriodoEscolar" SelectionChanged="cbPeriodoEscolar_SelectionChanged" Text="Selecciona un periodo" HorizontalAlignment="Left" Margin="355,156,0,0" VerticalAlignment="Top" Width="194"/>
+        <Label Content="Fecha de primera tutoría:" HorizontalAlignment="Left" Margin="80,208,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha de tercera tutoría:" HorizontalAlignment="Left" Margin="565,208,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha de segunda tutoría:" HorizontalAlignment="Center" Margin="0,208,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dpPrimeraTutoria" HorizontalAlignment="Left" Margin="80,239,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dpSegundaTutoria" HorizontalAlignment="Center" Margin="0,234,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dpTerceraTutoria" HorizontalAlignment="Left" Margin="565,234,0,0" VerticalAlignment="Top"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="552,365,0,0" VerticalAlignment="Top" Width="69" Click="clicCancelar"/>
+        <Button Content="Siguiente" HorizontalAlignment="Left" Margin="639,365,0,0" VerticalAlignment="Top" Width="66" Click="clicAceptar"/>
+
+    </Grid>
+</Window>

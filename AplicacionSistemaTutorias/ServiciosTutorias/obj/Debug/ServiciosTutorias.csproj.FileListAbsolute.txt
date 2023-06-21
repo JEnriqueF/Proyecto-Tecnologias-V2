@@ -1,0 +1,14 @@
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\AplicacionSistemaTutorias\ServiciosTutorias\bin\ServiciosTutorias.dll.config
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\AplicacionSistemaTutorias\ServiciosTutorias\bin\ServiciosTutorias.dll
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\AplicacionSistemaTutorias\ServiciosTutorias\bin\ServiciosTutorias.pdb
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\AplicacionSistemaTutorias\ServiciosTutorias\obj\Debug\ServiciosTutorias.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\AplicacionSistemaTutorias\ServiciosTutorias\obj\Debug\ServiciosTutorias.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\AplicacionSistemaTutorias\ServiciosTutorias\obj\Debug\ServiciosTutorias.dll
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\AplicacionSistemaTutorias\ServiciosTutorias\obj\Debug\ServiciosTutorias.pdb
+C:\Users\LENOVO\Desktop\AplicacionSistemaTutorias\ServiciosTutorias\bin\ServiciosTutorias.dll.config
+C:\Users\LENOVO\Desktop\AplicacionSistemaTutorias\ServiciosTutorias\bin\ServiciosTutorias.dll
+C:\Users\LENOVO\Desktop\AplicacionSistemaTutorias\ServiciosTutorias\bin\ServiciosTutorias.pdb
+C:\Users\LENOVO\Desktop\AplicacionSistemaTutorias\ServiciosTutorias\obj\Debug\ServiciosTutorias.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\AplicacionSistemaTutorias\ServiciosTutorias\obj\Debug\ServiciosTutorias.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\AplicacionSistemaTutorias\ServiciosTutorias\obj\Debug\ServiciosTutorias.dll
+C:\Users\LENOVO\Desktop\AplicacionSistemaTutorias\ServiciosTutorias\obj\Debug\ServiciosTutorias.pdb

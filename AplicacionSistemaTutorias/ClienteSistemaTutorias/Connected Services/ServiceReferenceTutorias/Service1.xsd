@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:59612/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" />
+  <xs:element name="Login">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="correo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="LoginResult" nillable="true" type="q1:Mensaje" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerPeriodosEscolaresSinTutorias">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerPeriodosEscolaresSinTutoriasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="obtenerPeriodosEscolaresSinTutoriasResult" nillable="true" type="q2:ArrayOfPeriodoEscolar" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="registrarFechasTutorias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeraSesion" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="segundaSesion" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="terceraSesion" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="primeraEntrega" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="segundaEntrega" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="terceraEntrega" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="idPeriodo" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="registrarFechasTutoriasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="registrarFechasTutoriasResult" nillable="true" type="q3:MensajeGenerico" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="actualizarTutoriasEnPeriodo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idPeriodo" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="actualizarTutoriasEnPeriodoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="actualizarTutoriasEnPeriodoResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTutores">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTutoresResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="obtenerTutoresResult" nillable="true" type="q4:ArrayOfAcademico" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTutoriasPeriodoReciente">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTutoriasPeriodoRecienteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="obtenerTutoriasPeriodoRecienteResult" nillable="true" type="q5:ArrayOfTutoriaAcademica" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerHorariosTutorias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idTutorAcademico" type="xs:int" />
+        <xs:element minOccurs="0" name="idTutoriaAcademica" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerHorariosTutoriasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="obtenerHorariosTutoriasResult" nillable="true" type="q6:ArrayOfHoraTutoria" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTuturadosDeHorariosTutorias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idTutorAcademico" type="xs:int" />
+        <xs:element minOccurs="0" name="idTutoriaAcademica" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTuturadosDeHorariosTutoriasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="obtenerTuturadosDeHorariosTutoriasResult" nillable="true" type="q7:ArrayOfTutorado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTutoriasAnterioresFechaActual">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTutoriasAnterioresFechaActualResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="obtenerTutoriasAnterioresFechaActualResult" nillable="true" type="q8:ArrayOfTutoriaAcademica" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerEEEnProblematicas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idTutoria" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerEEEnProblematicasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="obtenerEEEnProblematicasResult" nillable="true" type="q9:ArrayOfMateria" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerProblematicasPorTutoria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idTutoria" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerProblematicasPorTutoriaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="obtenerProblematicasPorTutoriaResult" nillable="true" type="q10:ArrayOfProblematica" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTutoresDeComentarios">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idTutoria" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTutoresDeComentariosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="obtenerTutoresDeComentariosResult" nillable="true" type="q11:ArrayOfAcademico" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerComentariosGenerales">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idTutoria" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerComentariosGeneralesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="obtenerComentariosGeneralesResult" nillable="true" type="q12:ArrayOfComentarioGeneral" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="registrarPeriodoNuevo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="titulo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fechaInicio" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fechaFin" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="registrarPeriodoNuevoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="registrarPeriodoNuevoResult" nillable="true" type="q13:MensajeGenerico" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerPeriodosEscolares">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerPeriodosEscolaresResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/ServiciosTutorias.Modelo" minOccurs="0" name="obtenerPeriodosEscolaresResult" nillable="true" type="q14:ArrayOfPeriodoEscolar" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerAsistenciaPorTutoria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idTutoria" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerAsistenciaPorTutoriaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerAsistenciaPorTutoriaResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
