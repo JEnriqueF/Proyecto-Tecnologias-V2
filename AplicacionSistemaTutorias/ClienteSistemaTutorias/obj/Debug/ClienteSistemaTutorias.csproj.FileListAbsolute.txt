@@ -70,3 +70,40 @@ C:\Users\LENOVO\Desktop\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Deb
 C:\Users\LENOVO\Desktop\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\RegistrarFechasCierreReporte.baml
 C:\Users\LENOVO\Desktop\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\EditarComentariosGenerales.g.cs
 C:\Users\LENOVO\Desktop\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\EditarComentariosGenerales.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\bin\Debug\ClienteSistemaTutorias.exe.config
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\bin\Debug\ClienteSistemaTutorias.exe
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\bin\Debug\ClienteSistemaTutorias.pdb
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ClienteSistemaTutorias.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ClienteSistemaTutorias.csproj.SuggestedBindingRedirects.cache
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\Avisos.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ConsultarHorarioTutorias.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ConsultarReporteGeneral.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\Login.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\MenuCoordinador.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\MenuJefe.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\MenuTutor.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\PeriodoNuevo.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\RegistrarFechasCierreReporte.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\RegistrarFechasTutorias.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ReporteGeneralTutorias.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\App.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ClienteSistemaTutorias_Content.g.cs
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ClienteSistemaTutorias_MarkupCompile.cache
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ClienteSistemaTutorias_MarkupCompile.lref
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\Avisos.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ConsultarHorarioTutorias.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ConsultarReporteGeneral.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\Login.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\MenuCoordinador.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\MenuJefe.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\MenuTutor.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\PeriodoNuevo.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\RegistrarFechasCierreReporte.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\RegistrarFechasTutorias.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ReporteGeneralTutorias.baml
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ClienteSistemaTutorias.g.resources
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ClienteSistemaTutorias.Properties.Resources.resources
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ClienteSistemaTutorias.csproj.GenerateResource.cache
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ClienteSistemaTutorias.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ClienteSistemaTutorias.exe
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\ClienteSistemaTutorias.pdb

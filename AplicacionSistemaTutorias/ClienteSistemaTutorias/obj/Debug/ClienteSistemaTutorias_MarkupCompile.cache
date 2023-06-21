@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\obj\Debug\
 ClienteSistemaTutorias
 none
 false
 DEBUG;TRACE
-C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\AplicacionSistemaTutorias\ClienteSistemaTutorias\App.xaml
-121173705425
+C:\Users\LENOVO\Documents\Tecnologías para la construcción\Sistema de tutorías (Proyecto)\Proyecto-Tecnologias-V2\AplicacionSistemaTutorias\ClienteSistemaTutorias\App.xaml
+11-860083756
 2-309476792
-231668981720
+211558391491
 151069376965
-Avisos.xaml;ConsultarHorarioTutorias.xaml;ConsultarReporteGeneral.xaml;EditarComentariosGenerales.xaml;Login.xaml;MenuCoordinador.xaml;MenuJefe.xaml;MenuTutor.xaml;PeriodoNuevo.xaml;RegistrarFechasCierreReporte.xaml;RegistrarFechasTutorias.xaml;ReporteGeneralTutorias.xaml;
+Avisos.xaml;ConsultarHorarioTutorias.xaml;ConsultarReporteGeneral.xaml;Login.xaml;MenuCoordinador.xaml;MenuJefe.xaml;MenuTutor.xaml;PeriodoNuevo.xaml;RegistrarFechasCierreReporte.xaml;RegistrarFechasTutorias.xaml;ReporteGeneralTutorias.xaml;
 
-True
+False
 
